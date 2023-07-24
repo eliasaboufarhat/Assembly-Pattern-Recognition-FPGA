@@ -1,6 +1,6 @@
 # Machine Learning for Pattern Recognition in C Compiled Assembly Code
 
-[Project Report](https://example.com/link_to_poster.pdf)
+[Project Report]([https://example.com/link_to_poster.pdf](https://github.com/elioaboufarhat/automatic-fpga-acceleration/blob/main/BEng_Final_Report.pdf))
 
 ## Description
 
@@ -24,7 +24,7 @@ This repository contains the following files and directories:
 
 - `src/`: Source code directory containing scripts for data preprocessing, CNN training, and pattern analysis.
 - `data/`: Directory to store the compiled assembly code datasets used for training and testing.
-- `docs/`: Contains the poster presented at conferences and academic events (see [Project Poster](https://example.com/link_to_poster.pdf))
+- `docs/`: Contains the poster presented at conferences and academic events (see [Project Poster]([https://example.com/link_to_poster.pdf](https://github.com/elioaboufarhat/automatic-fpga-acceleration/blob/main/poster.pdf)))
 
 ### Project Status
 The initial phase of this project was completed as a final project for my Computer Systems Engineering degree. However, due to other commitments and priorities, the project is currently on pause.
