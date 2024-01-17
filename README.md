@@ -1,5 +1,10 @@
 # Machine Learning for Pattern Recognition in C Compiled Assembly Code
 
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![ASSEMBLY](https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge)
+
+
 [Project Report](https://github.com/elioaboufarhat/automatic-fpga-acceleration/blob/main/BEng_Final_Report.pdf)
 
 ## Description
@@ -18,13 +23,20 @@ The main goals of this research project are as follows:
 2. Train a Convolutional Neural Network (CNN) to recognize recurring patterns within the assembly code.
 3. Utilize the trained CNN to identify potential patterns suitable for FPGA offloading.
 
-### Repository Contents
+### Project Structure
 
 This repository contains the following files and directories:
 
 - `src/`: Source code directory containing scripts for data preprocessing, CNN training, and pattern analysis.
 - `data/`: Directory to store the compiled assembly code datasets used for training and testing.
 - `docs/`: Contains the poster presented at conferences and academic events (see [Project Poster](https://github.com/elioaboufarhat/automatic-fpga-acceleration/blob/main/poster.pdf)))
+    .
+    ├── ...
+    ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    └── ...
 
 ### Project Status
 The initial phase of this project was completed as a final project for my Computer Systems Engineering degree. However, due to other commitments and priorities, the project is currently on pause.
