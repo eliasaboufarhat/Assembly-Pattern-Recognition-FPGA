@@ -1,9 +1,9 @@
-# Machine Learning for Pattern Recognition in C Compiled Assembly Code
+# Pattern Recognition (CNN) for acceleration of C Compiled Assembly Code
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![ASSEMBLY](https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge)
-
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
 [Project Report](https://github.com/elioaboufarhat/automatic-fpga-acceleration/blob/main/BEng_Final_Report.pdf)
 
@@ -27,16 +27,28 @@ The main goals of this research project are as follows:
 
 This repository contains the following files and directories:
 
-- `src/`: Source code directory containing scripts for data preprocessing, CNN training, and pattern analysis.
-- `data/`: Directory to store the compiled assembly code datasets used for training and testing.
-- `docs/`: Contains the poster presented at conferences and academic events (see [Project Poster](https://github.com/elioaboufarhat/automatic-fpga-acceleration/blob/main/poster.pdf)))
-    .
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    └── ...
+
+      ├── ...
+      ├── datasets                
+      │   ├── training                  
+      │   ├── testing                 
+      ├── src
+      │   ├── data_generation           # Data Generation & Image Generation
+      │         ├── 12f1840             # PIC Processor "12f1840" Compiled Assembly Files
+      │         ├── cGen                # Python functions for common algorithms/problems C code generation
+      │         ├── Reports             # Output Microship Software Files
+      │         ├── ... .py             # Python files for pipeline
+      │   ├── ml                        # functions responsible for data generation
+      │         ├── data.py             # Data Preparation Class for Training
+      │         ├── model.py            # Model Class Initialisation
+      │         ├── training.py         # Training of CNN - Algorithm
+      │         ├── main.py             # Main Testing Files - Inference
+      ├── Final_Report.pdf              # Full Report - Final Year Project
+      ├── poster.pdf                    # Poster - Summary of Project
+      
+    
+
+    
 
 ### Project Status
 The initial phase of this project was completed as a final project for my Computer Systems Engineering degree. However, due to other commitments and priorities, the project is currently on pause.

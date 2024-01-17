@@ -1,0 +1,1 @@
+ sigmoid.d  sigmoid.p1:  ../datasets/cfiles/sigmoid.c

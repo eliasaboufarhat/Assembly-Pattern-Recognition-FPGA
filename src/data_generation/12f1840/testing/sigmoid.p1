@@ -1,0 +1,71 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"46 /Applications/microchip/xc8/v2.36/pic/include/c90/math.h
+[v _exp `(d ~T0 @X0 0 ef1`d ]
+[p mainexit ]
+"5 ../datasets/cfiles/sigmoid.c
+[v _sigmoid `(d ~T0 @X0 1 ef1`d ]
+{
+[e :U _sigmoid ]
+[v _x `d ~T0 @X0 1 r1 ]
+[f ]
+"6
+[v _result `d ~T0 @X0 1 a ]
+"7
+[e = _result / -> -> 1 `i `d + -> -> 1 `i `d ( _exp (1 -U _x ]
+"8
+[e ) _result ]
+[e $UE 2  ]
+"9
+[e :UE 2 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"11
+[v _main `(i ~T0 @X0 1 ef ]
+"12
+{
+[e :U _main ]
+[f ]
+[v F130 `d ~T0 @X0 -> 0 `x s ]
+[i F130
+:U ..
+"13
+-> -> 2 `i `d
+.34.5
+.13.3
+-> -> 12 `i `d
+.79.9
+.45.3
+.7.43
+.1.1
+-> -> 92 `i `d
+-> -> 33 `i `d
+..
+]
+[v _signal `d ~T0 @X0 10  a ]
+[e = _signal F130 ]
+"14
+[v _output `d ~T0 @X0 -> 10 `i a ]
+"16
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 10 `i 4  ]
+[e $U 5  ]
+[e :U 4 ]
+{
+"17
+[e = *U + &U _output * -> -> _i `ui `ux -> -> # *U &U _output `ui `ux ( _sigmoid (1 *U + &U _signal * -> -> _i `ui `ux -> -> # *U &U _signal `ui `ux ]
+"18
+}
+"16
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 10 `i 4  ]
+[e :U 5 ]
+"18
+}
+"20
+[e ) -> 0 `i ]
+[e $UE 3  ]
+"21
+[e :UE 3 ]
+}
